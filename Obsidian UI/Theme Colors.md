@@ -1,492 +1,116 @@
-## Dark Mode
+# Current
 
-<table class="theme-dark">
-  <thead>
-    <tr>
-      <th>Variable name</th>
-      <th>As text color</th>
-      <th>As background color</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>var(--background-primary)</td>
-      <td class="color-background-primary-text">var(--background-primary)</td>
-      <td class="color-background-primary-bg">var(--background-primary)</td>
-    </tr>
-    <tr>
-      <td>var(--background-primary-alt)</td>
-      <td class="color-background-primary-alt-text">
-        var(--background-primary-alt)
-      </td>
-      <td class="color-background-primary-alt-bg">
-        var(--background-primary-alt)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-secondary)</td>
-      <td class="color-background-secondary-text">
-        var(--background-secondary)
-      </td>
-      <td class="color-background-secondary-bg">var(--background-secondary)</td>
-    </tr>
-    <tr>
-      <td>var(--background-secondary-alt)</td>
-      <td class="color-background-secondary-alt-text">
-        var(--background-secondary-alt)
-      </td>
-      <td class="color-background-secondary-alt-bg">
-        var(--background-secondary-alt)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-border)</td>
-      <td class="color-background-modifier-border-text">
-        var(--background-modifier-border)
-      </td>
-      <td class="color-background-modifier-border-bg">
-        var(--background-modifier-border)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-form-field)</td>
-      <td class="color-background-modifier-form-field-text">
-        var(--background-modifier-form-field)
-      </td>
-      <td class="color-background-modifier-form-field-bg">
-        var(--background-modifier-form-field)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-form-field-highlighted)</td>
-      <td class="color-background-modifier-form-field-highlighted-text">
-        var(--background-modifier-form-field-highlighted)
-      </td>
-      <td class="color-background-modifier-form-field-highlighted-bg">
-        var(--background-modifier-form-field-highlighted)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-box-shadow)</td>
-      <td class="color-background-modifier-box-shadow-text">
-        var(--background-modifier-box-shadow)
-      </td>
-      <td class="color-background-modifier-box-shadow-bg">
-        var(--background-modifier-box-shadow)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-success)</td>
-      <td class="color-background-modifier-success-text">
-        var(--background-modifier-success)
-      </td>
-      <td class="color-background-modifier-success-bg">
-        var(--background-modifier-success)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-error)</td>
-      <td class="color-background-modifier-error-text">
-        var(--background-modifier-error)
-      </td>
-      <td class="color-background-modifier-error-bg">
-        var(--background-modifier-error)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-error-rgb)</td>
-      <td class="color-background-modifier-error-rgb-text">
-        var(--background-modifier-error-rgb)
-      </td>
-      <td class="color-background-modifier-error-rgb-bg">
-        var(--background-modifier-error-rgb)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-error-hover)</td>
-      <td class="color-background-modifier-error-hover-text">
-        var(--background-modifier-error-hover)
-      </td>
-      <td class="color-background-modifier-error-hover-bg">
-        var(--background-modifier-error-hover)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-cover)</td>
-      <td class="color-background-modifier-cover-text">
-        var(--background-modifier-cover)
-      </td>
-      <td class="color-background-modifier-cover-bg">
-        var(--background-modifier-cover)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--text-accent)</td>
-      <td class="color-text-accent-text">var(--text-accent)</td>
-      <td class="color-text-accent-bg">var(--text-accent)</td>
-    </tr>
-    <tr>
-      <td>var(--text-accent-hover)</td>
-      <td class="color-text-accent-hover-text">var(--text-accent-hover)</td>
-      <td class="color-text-accent-hover-bg">var(--text-accent-hover)</td>
-    </tr>
-    <tr>
-      <td>var(--text-normal)</td>
-      <td class="color-text-normal-text">var(--text-normal)</td>
-      <td class="color-text-normal-bg">var(--text-normal)</td>
-    </tr>
-    <tr>
-      <td>var(--text-muted)</td>
-      <td class="color-text-muted-text">var(--text-muted)</td>
-      <td class="color-text-muted-bg">var(--text-muted)</td>
-    </tr>
-    <tr>
-      <td>var(--text-muted-rgb)</td>
-      <td class="color-text-muted-rgb-text">var(--text-muted-rgb)</td>
-      <td class="color-text-muted-rgb-bg">var(--text-muted-rgb)</td>
-    </tr>
-    <tr>
-      <td>var(--text-faint)</td>
-      <td class="color-text-faint-text">var(--text-faint)</td>
-      <td class="color-text-faint-bg">var(--text-faint)</td>
-    </tr>
-    <tr>
-      <td>var(--text-error)</td>
-      <td class="color-text-error-text">var(--text-error)</td>
-      <td class="color-text-error-bg">var(--text-error)</td>
-    </tr>
-    <tr>
-      <td>var(--text-error-hover)</td>
-      <td class="color-text-error-hover-text">var(--text-error-hover)</td>
-      <td class="color-text-error-hover-bg">var(--text-error-hover)</td>
-    </tr>
-    <tr>
-      <td>var(--text-highlight-bg)</td>
-      <td class="color-text-highlight-bg-text">var(--text-highlight-bg)</td>
-      <td class="color-text-highlight-bg-bg">var(--text-highlight-bg)</td>
-    </tr>
-    <tr>
-      <td>var(--text-highlight-bg-active)</td>
-      <td class="color-text-highlight-bg-active-text">
-        var(--text-highlight-bg-active)
-      </td>
-      <td class="color-text-highlight-bg-active-bg">
-        var(--text-highlight-bg-active)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--text-selection)</td>
-      <td class="color-text-selection-text">var(--text-selection)</td>
-      <td class="color-text-selection-bg">var(--text-selection)</td>
-    </tr>
-    <tr>
-      <td>var(--text-on-accent)</td>
-      <td class="color-text-on-accent-text">var(--text-on-accent)</td>
-      <td class="color-text-on-accent-bg">var(--text-on-accent)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-normal)</td>
-      <td class="color-interactive-normal-text">var(--interactive-normal)</td>
-      <td class="color-interactive-normal-bg">var(--interactive-normal)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-hover)</td>
-      <td class="color-interactive-hover-text">var(--interactive-hover)</td>
-      <td class="color-interactive-hover-bg">var(--interactive-hover)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-accent)</td>
-      <td class="color-interactive-accent-text">var(--interactive-accent)</td>
-      <td class="color-interactive-accent-bg">var(--interactive-accent)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-accent-rgb)</td>
-      <td class="color-interactive-accent-rgb-text">
-        var(--interactive-accent-rgb)
-      </td>
-      <td class="color-interactive-accent-rgb-bg">
-        var(--interactive-accent-rgb)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--interactive-accent-hover)</td>
-      <td class="color-interactive-accent-hover-text">
-        var(--interactive-accent-hover)
-      </td>
-      <td class="color-interactive-accent-hover-bg">
-        var(--interactive-accent-hover)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--interactive-success)</td>
-      <td class="color-interactive-success-text">var(--interactive-success)</td>
-      <td class="color-interactive-success-bg">var(--interactive-success)</td>
-    </tr>
-    <tr>
-      <td>var(--scrollbar-active-thumb-bg)</td>
-      <td class="color-scrollbar-active-thumb-bg-text">
-        var(--scrollbar-active-thumb-bg)
-      </td>
-      <td class="color-scrollbar-active-thumb-bg-bg">
-        var(--scrollbar-active-thumb-bg)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--scrollbar-bg)</td>
-      <td class="color-scrollbar-bg-text">var(--scrollbar-bg)</td>
-      <td class="color-scrollbar-bg-bg">var(--scrollbar-bg)</td>
-    </tr>
-    <tr>
-      <td>var(--scrollbar-thumb-bg)</td>
-      <td class="color-scrollbar-thumb-bg-text">var(--scrollbar-thumb-bg)</td>
-      <td class="color-scrollbar-thumb-bg-bg">var(--scrollbar-thumb-bg)</td>
-    </tr>
-  </tbody>
-</table>
-
-
+<div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
+	<p style="text-align: center">--color-base-00</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-00); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-05</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-05); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-10</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-10); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-20</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-20); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-25</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-25); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-30</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-30); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-35</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-35); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-40</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-40); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-50</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-50); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-60</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-60); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-70</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-70); border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-100</p>
+	<div style="width: 100%; height: 100%; background-color: var(--color-base-100); border-left: solid 1px black;"></div>
+</div>
+# Default
 ## Light Mode
-
-<table class="theme-light">
-  <thead>
-    <tr>
-      <th>Variable name</th>
-      <th>As text color</th>
-      <th>As background color</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>var(--background-primary)</td>
-      <td class="color-background-primary-text">var(--background-primary)</td>
-      <td class="color-background-primary-bg">var(--background-primary)</td>
-    </tr>
-    <tr>
-      <td>var(--background-primary-alt)</td>
-      <td class="color-background-primary-alt-text">
-        var(--background-primary-alt)
-      </td>
-      <td class="color-background-primary-alt-bg">
-        var(--background-primary-alt)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-secondary)</td>
-      <td class="color-background-secondary-text">
-        var(--background-secondary)
-      </td>
-      <td class="color-background-secondary-bg">var(--background-secondary)</td>
-    </tr>
-    <tr>
-      <td>var(--background-secondary-alt)</td>
-      <td class="color-background-secondary-alt-text">
-        var(--background-secondary-alt)
-      </td>
-      <td class="color-background-secondary-alt-bg">
-        var(--background-secondary-alt)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-border)</td>
-      <td class="color-background-modifier-border-text">
-        var(--background-modifier-border)
-      </td>
-      <td class="color-background-modifier-border-bg">
-        var(--background-modifier-border)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-form-field)</td>
-      <td class="color-background-modifier-form-field-text">
-        var(--background-modifier-form-field)
-      </td>
-      <td class="color-background-modifier-form-field-bg">
-        var(--background-modifier-form-field)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-form-field-highlighted)</td>
-      <td class="color-background-modifier-form-field-highlighted-text">
-        var(--background-modifier-form-field-highlighted)
-      </td>
-      <td class="color-background-modifier-form-field-highlighted-bg">
-        var(--background-modifier-form-field-highlighted)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-box-shadow)</td>
-      <td class="color-background-modifier-box-shadow-text">
-        var(--background-modifier-box-shadow)
-      </td>
-      <td class="color-background-modifier-box-shadow-bg">
-        var(--background-modifier-box-shadow)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-success)</td>
-      <td class="color-background-modifier-success-text">
-        var(--background-modifier-success)
-      </td>
-      <td class="color-background-modifier-success-bg">
-        var(--background-modifier-success)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-error)</td>
-      <td class="color-background-modifier-error-text">
-        var(--background-modifier-error)
-      </td>
-      <td class="color-background-modifier-error-bg">
-        var(--background-modifier-error)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-error-rgb)</td>
-      <td class="color-background-modifier-error-rgb-text">
-        var(--background-modifier-error-rgb)
-      </td>
-      <td class="color-background-modifier-error-rgb-bg">
-        var(--background-modifier-error-rgb)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-error-hover)</td>
-      <td class="color-background-modifier-error-hover-text">
-        var(--background-modifier-error-hover)
-      </td>
-      <td class="color-background-modifier-error-hover-bg">
-        var(--background-modifier-error-hover)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--background-modifier-cover)</td>
-      <td class="color-background-modifier-cover-text">
-        var(--background-modifier-cover)
-      </td>
-      <td class="color-background-modifier-cover-bg">
-        var(--background-modifier-cover)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--text-accent)</td>
-      <td class="color-text-accent-text">var(--text-accent)</td>
-      <td class="color-text-accent-bg">var(--text-accent)</td>
-    </tr>
-    <tr>
-      <td>var(--text-accent-hover)</td>
-      <td class="color-text-accent-hover-text">var(--text-accent-hover)</td>
-      <td class="color-text-accent-hover-bg">var(--text-accent-hover)</td>
-    </tr>
-    <tr>
-      <td>var(--text-normal)</td>
-      <td class="color-text-normal-text">var(--text-normal)</td>
-      <td class="color-text-normal-bg">var(--text-normal)</td>
-    </tr>
-    <tr>
-      <td>var(--text-muted)</td>
-      <td class="color-text-muted-text">var(--text-muted)</td>
-      <td class="color-text-muted-bg">var(--text-muted)</td>
-    </tr>
-    <tr>
-      <td>var(--text-muted-rgb)</td>
-      <td class="color-text-muted-rgb-text">var(--text-muted-rgb)</td>
-      <td class="color-text-muted-rgb-bg">var(--text-muted-rgb)</td>
-    </tr>
-    <tr>
-      <td>var(--text-faint)</td>
-      <td class="color-text-faint-text">var(--text-faint)</td>
-      <td class="color-text-faint-bg">var(--text-faint)</td>
-    </tr>
-    <tr>
-      <td>var(--text-error)</td>
-      <td class="color-text-error-text">var(--text-error)</td>
-      <td class="color-text-error-bg">var(--text-error)</td>
-    </tr>
-    <tr>
-      <td>var(--text-error-hover)</td>
-      <td class="color-text-error-hover-text">var(--text-error-hover)</td>
-      <td class="color-text-error-hover-bg">var(--text-error-hover)</td>
-    </tr>
-    <tr>
-      <td>var(--text-highlight-bg)</td>
-      <td class="color-text-highlight-bg-text">var(--text-highlight-bg)</td>
-      <td class="color-text-highlight-bg-bg">var(--text-highlight-bg)</td>
-    </tr>
-    <tr>
-      <td>var(--text-highlight-bg-active)</td>
-      <td class="color-text-highlight-bg-active-text">
-        var(--text-highlight-bg-active)
-      </td>
-      <td class="color-text-highlight-bg-active-bg">
-        var(--text-highlight-bg-active)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--text-selection)</td>
-      <td class="color-text-selection-text">var(--text-selection)</td>
-      <td class="color-text-selection-bg">var(--text-selection)</td>
-    </tr>
-    <tr>
-      <td>var(--text-on-accent)</td>
-      <td class="color-text-on-accent-text">var(--text-on-accent)</td>
-      <td class="color-text-on-accent-bg">var(--text-on-accent)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-normal)</td>
-      <td class="color-interactive-normal-text">var(--interactive-normal)</td>
-      <td class="color-interactive-normal-bg">var(--interactive-normal)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-hover)</td>
-      <td class="color-interactive-hover-text">var(--interactive-hover)</td>
-      <td class="color-interactive-hover-bg">var(--interactive-hover)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-accent)</td>
-      <td class="color-interactive-accent-text">var(--interactive-accent)</td>
-      <td class="color-interactive-accent-bg">var(--interactive-accent)</td>
-    </tr>
-    <tr>
-      <td>var(--interactive-accent-rgb)</td>
-      <td class="color-interactive-accent-rgb-text">
-        var(--interactive-accent-rgb)
-      </td>
-      <td class="color-interactive-accent-rgb-bg">
-        var(--interactive-accent-rgb)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--interactive-accent-hover)</td>
-      <td class="color-interactive-accent-hover-text">
-        var(--interactive-accent-hover)
-      </td>
-      <td class="color-interactive-accent-hover-bg">
-        var(--interactive-accent-hover)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--interactive-success)</td>
-      <td class="color-interactive-success-text">var(--interactive-success)</td>
-      <td class="color-interactive-success-bg">var(--interactive-success)</td>
-    </tr>
-    <tr>
-      <td>var(--scrollbar-active-thumb-bg)</td>
-      <td class="color-scrollbar-active-thumb-bg-text">
-        var(--scrollbar-active-thumb-bg)
-      </td>
-      <td class="color-scrollbar-active-thumb-bg-bg">
-        var(--scrollbar-active-thumb-bg)
-      </td>
-    </tr>
-    <tr>
-      <td>var(--scrollbar-bg)</td>
-      <td class="color-scrollbar-bg-text">var(--scrollbar-bg)</td>
-      <td class="color-scrollbar-bg-bg">var(--scrollbar-bg)</td>
-    </tr>
-    <tr>
-      <td>var(--scrollbar-thumb-bg)</td>
-      <td class="color-scrollbar-thumb-bg-text">var(--scrollbar-thumb-bg)</td>
-      <td class="color-scrollbar-thumb-bg-bg">var(--scrollbar-thumb-bg)</td>
-    </tr>
-  </tbody>
-</table>
+<div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
+	<p style="text-align: center">--color-base-00: #ffffff</p>
+	<div style="width: 100%; height: 100%; background-color: #ffffff; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-05: #fcfcfc</p>
+	<div style="width: 100%; height: 100%; background-color: #fcfcfc; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-10: #fafafa</p>
+	<div style="width: 100%; height: 100%; background-color: #fafafa; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-20: #f6f6f6</p>
+	<div style="width: 100%; height: 100%; background-color: #f6f6f6; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-25: #e3e3e3</p>
+	<div style="width: 100%; height: 100%; background-color: #e3e3e3; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-30: #e0e0e0e</p>
+	<div style="width: 100%; height: 100%; background-color: #e0e0e0; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-35: #d4d4d4</p>
+	<div style="width: 100%; height: 100%; background-color: #d4d4d4; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-40: #bdbdbd</p>
+	<div style="width: 100%; height: 100%; background-color: #bdbdbd; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-50: #ababab</p>
+	<div style="width: 100%; height: 100%; background-color: #ababab; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-60: #707070</p>
+	<div style="width: 100%; height: 100%; background-color: #707070; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-70: #5a5a5a</p>
+	<div style="width: 100%; height: 100%; background-color: #5a5a5a; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-100: #222222</p>
+	<div style="width: 100%; height: 100%; background-color: #222222; border-left: solid 1px black;"></div>
+</div>
+## Dark Mode
+<div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
+	<p style="text-align: center">--color-base-00: #1e1e1e</p>
+	<div style="width: 100%; height: 100%; background-color: #1e1e1e; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-05: #212121</p>
+	<div style="width: 100%; height: 100%; background-color: #212121; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-10: #242424</p>
+	<div style="width: 100%; height: 100%; background-color: #242424; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-20: #262626</p>
+	<div style="width: 100%; height: 100%; background-color: #262626; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-25: #2a2a2a</p>
+	<div style="width: 100%; height: 100%; background-color: #2a2a2a; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-30: #363636</p>
+	<div style="width: 100%; height: 100%; background-color: #363636; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-35: #3f3f3f</p>
+	<div style="width: 100%; height: 100%; background-color: #3f3f3f; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-40: #555555</p>
+	<div style="width: 100%; height: 100%; background-color: #555555; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-50: #666666</p>
+	<div style="width: 100%; height: 100%; background-color: #666666; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-60: #999999</p>
+	<div style="width: 100%; height: 100%; background-color: #999999; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-70: #bababa</p>
+	<div style="width: 100%; height: 100%; background-color: #bababa; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-100: #dadada</p>
+	<div style="width: 100%; height: 100%; background-color: #dadada; border-left: solid 1px black;"></div>
+</div>
