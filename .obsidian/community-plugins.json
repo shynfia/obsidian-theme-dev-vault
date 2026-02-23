@@ -3,5 +3,6 @@
   "obsidian-style-settings",
   "obsidian-kanban",
   "mysnippets-plugin",
-  "theme-picker"
+  "theme-picker",
+  "obsidian-theme-hot-reload-plugin"
 ]
