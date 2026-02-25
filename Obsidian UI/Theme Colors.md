@@ -39,6 +39,7 @@
 </div>
 # Default
 ## Light Mode
+
 <div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
 	<p style="text-align: center">--color-base-00: #ffffff</p>
 	<div style="width: 100%; height: 100%; background-color: #ffffff; border-left: solid 1px black;"></div>
@@ -77,6 +78,7 @@
 	<div style="width: 100%; height: 100%; background-color: #222222; border-left: solid 1px black;"></div>
 </div>
 ## Dark Mode
+
 <div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
 	<p style="text-align: center">--color-base-00: #1e1e1e</p>
 	<div style="width: 100%; height: 100%; background-color: #1e1e1e; border-left: solid 1px black;"></div>
@@ -113,4 +115,82 @@
 	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
 	<p style="text-align: center">--color-base-100: #dadada</p>
 	<div style="width: 100%; height: 100%; background-color: #dadada; border-left: solid 1px black;"></div>
+</div>
+# Primary
+## Light Mode
+<div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
+	<p style="text-align: center">--color-base-00: #fcfaf8</p>
+	<div style="width: 100%; height: 100%; background-color: #fcfaf8; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-05: #f8f5f1</p>
+	<div style="width: 100%; height: 100%; background-color: #f8f5f1; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-10: #f2ece3</p>
+	<div style="width: 100%; height: 100%; background-color: #f2ece3; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-20: #eee7dd</p>
+	<div style="width: 100%; height: 100%; background-color: #eee7dd; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-25: #ebe3d6</p>
+	<div style="width: 100%; height: 100%; background-color: #ebe3d6; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-30: #e4d7c3</p>
+	<div style="width: 100%; height: 100%; background-color: #e4d7c3; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-35: #cfb696</p>
+	<div style="width: 100%; height: 100%; background-color: #cfb696; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-40: #b79d7b</p>
+	<div style="width: 100%; height: 100%; background-color: #b79d7b; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-50: #9d8062</p>
+	<div style="width: 100%; height: 100%; background-color: #9d8062; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-60: #836b49</p>
+	<div style="width: 100%; height: 100%; background-color: #836b49; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-70: #655134</p>
+	<div style="width: 100%; height: 100%; background-color: #655134; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-100: #432e14</p>
+	<div style="width: 100%; height: 100%; background-color: #432e14; border-left: solid 1px black;"></div>
+</div>
+## Dark Mode
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; border: solid 1px black;">
+	<p style="text-align: center">--color-base-00: #1c1712</p>
+	<div style="width: 100%; height: 100%; background-color: #1c1712; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-05: #26211c</p>
+	<div style="width: 100%; height: 100%; background-color: #26211c; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-10: #2e261f</p>
+	<div style="width: 100%; height: 100%; background-color: #2e261f; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-20: #342c23</p>
+	<div style="width: 100%; height: 100%; background-color: #342c23; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-25: #3b3026</p>
+	<div style="width: 100%; height: 100%; background-color: #3b3026; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-30: #51402f</p>
+	<div style="width: 100%; height: 100%; background-color: #51402f; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-35: #6b563d</p>
+	<div style="width: 100%; height: 100%; background-color: #6b563d; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-40: #917959</p>
+	<div style="width: 100%; height: 100%; background-color: #917959; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-50: #ab916d</p>
+	<div style="width: 100%; height: 100%; background-color: #ab916d; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-60: #c7b194</p>
+	<div style="width: 100%; height: 100%; background-color: #c7b194; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-70: #d7c0a3</p>
+	<div style="width: 100%; height: 100%; background-color: #d7c0a3; border-left: solid 1px black;"></div>
+	<div style="grid-column: 1/-1; height: 1px; background: black"></div>
+	<p style="text-align: center">--color-base-100: #ebdac6</p>
+	<div style="width: 100%; height: 100%; background-color: #ebdac6; border-left: solid 1px black;"></div>
 </div>
